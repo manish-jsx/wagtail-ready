@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Wagtail
+*.log
+*.pot
+*.mo
+*.pyc
+
+# Django stuff:
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Wagtail specific directories and files
+staticfiles/
+media/
+
+# If you are using Django Compressor
+compressed/
+
+# If you are using Django Storages
+storages/
+
+# Local settings
+local_settings.py
+
+# Sensitive data files
+*.pem
+*.key
+*.crt
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+.env.*.local
+
+# Virtual Environment
+.venv/
+.venv/bin/
+.venv/lib/
+.venv/include/
+.venv/pyvenv.cfg
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
